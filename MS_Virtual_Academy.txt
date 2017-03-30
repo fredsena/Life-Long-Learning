@@ -1,0 +1,127 @@
+
+Microservices Design and Patterns
+ (23)
+Intermediate
+Are you designing microservices-based applications? Join us for a closer look at the basic patterns that are required. Take a look at some of the common concerns that arise in the building of high-scale distributed systems solutions.Learn about designing high-scale systems, design layers and tiers, explore enabling clusters, and create autonomous layers. Review some of the operational objectives that architects and developers aim to meet when building high-scale distributed systems solutions.
+Clemens Vasters - Principal Program Manager, Microsoft
+Published: 9 months ago
+
+Building Microservices Applications on Azure Service Fabric
+ (61)
+Intermediate
+Want to work with a distributed systems platform to build scalable, reliable, and easily managed applications for the cloud? Take this on-demand Azure Service Fabric course, and explore the free Windows component that works with any cloud, including Azure, Amazon, on-premises, and more.   Hear a brief history of Service Fabric, and take a look at the fundamentals, along with the different kinds of service you build and deploy with it. Get an overview of Service Fabric, and explore its developer tools and core concepts. Then, learn about an application’s lifetime management, including how to create, deploy, scale, upgrade, and delete an application. Wrap up the course with some customer success stories.
+Jeffrey Richter, Subramanian Ramaswamy, Mark Fussell
+Published: 6 months ago
+
+Building Distributed Applications and Microservices-Based Apps on Azure Container Service
+ (9)
+Intermediate
+Would you like more information on Microsoft Azure Container Service, a simple, open, and flexible way to run your container applications in the cloud? Be sure to take this course, which provides an in-depth look at distributed apps and microservices-based apps on Azure Container Service. Start with an overview, and then dive into how to build an app to run on Azure Container Service, with a look at topics like how to handle service registry and service discovery, plus load balancing for your application. Learn about clusters, scheduler, and orchestrators, along with finding microservice endpoints. And explore the DevOps flow, with a look at continuous integration and continuous delivery/deployment. Learn what you need to know to create an application using microservices.
+Boris Scholl and Trent Swanson
+Published: 9 months ago
+
+Orchestrating Data and Services with Azure Data Factory
+ (28)
+Intermediate
+Are you a BI or data professional, or maybe an aspiring data scientist? If you’re exploring data orchestration concepts, check out this course on the basic capabilities of Azure Data Factory (ADF), a cloud-based data integration service. Find out how it can help you with your big data and machine learning projects, get an overview of advanced analytics, and see how Azure Data Factory fits into the Cortana Analytics Suite. Plus, learn how to operate a data factory as part of an analytics solution to bring all of your data together and to scale it out.   In this practical, feature-focused course, watch demos as you learn how to create, manage, monitor, and extend a data factory. See what a pipeline is and what an activity is, find out how to create custom pipelines, and explore how to manage ADF pipelines over time. You even get a look at the new pipeline monitoring tool. Don’t miss this chance to see how ADF can help you with end-to-end analytics solutions.   Note: Get a detailed introduction to Azure Data Factory, including an overview, key concepts, and a tutorial.
+Pete Harris and Sonia Carlson
+Published: 1 year ago
+
+MongoDB and Redis Caching
+ (71)
+Intermediate
+Wondering what the buzz is all about with NoSQL? If you're an open source developer and you want to store unstructured data, see why MongoDB, a scalable document-oriented database, is so popular in this arena, plus explore how to use it on Azure.Learn how to set up MongoDB and how to load data in bulk, do simple queries, scale for data with sharding, and much more. Experts Steven Edouard and Rami Sayar show you how easy it is to get up and running, as they explore NoSQL, Documents, Map Reduce, and scaling via C# and Node.js. Check out this course, watch some cool demos, and see if MongoDB is for you!Instructors |  Rami Sayar - Microsoft Developer Evangelist; Steven Edouard - Microsoft Developer Evangelist
+Published: 2 years ago
+
+Web and Data Application Development with Visual Studio 2017 and Azure
+ (17)
+Advanced
+If you’d like to learn application development, end to end, be sure to take this course. Get a look at a number of cloud-based technologies, see practical demonstrations, and dig into what’s new in Visual Studio 2017, in this course, part of Connect(); //2016 Day 3.   In six in-depth modules, take a look at the interoperability of many tools, platforms, and APIs. From .NET Core and the power of Application Insights to Azure SQL, SQL Server 2016, and Azure Storage, get helpful insights into the Microsoft ecosystem. Plus, learn about Power BI and Office Graph, Azure Search, Docker, and much more. Take this opportunity to see how these fit together, as you build a solution, from start to finish, and explore full-stack development with the experts, in this Azure for developers course.
+Jeff Prosise and Scott J. Peterson
+Published: 4 months ago
+
+ASP.NET Core 1.0 Cross-Platform
+ (46)
+Advanced
+Ready to build and deploy ASP.NET Core 1.0 apps? Join experts Scott Hanselman, Maria Naggaga, and Glenn Condron, and see how to do just that using Mac and Linux. Revisit content from the Introduction to ASP.NET Core 1.0 course, but using a Mac and Linux.   Get the basics of ASP.NET Core, and see the tools available on Mac and Linux. Then, explore more advanced topics, like deploying on a Linux server and getting started with containers and Docker. Learn about the containers that Docker is built to manage, get the details on .NET Core Docker base images, check out the tooling available for Docker, and more.  NOTE: You may also want to take Intermediate ASP.NET Core 1.0, which is the second in this practical series of ASP.NET Core 1.0 training courses.
+Scott Hanselman, Maria Naggaga, Glenn Condron
+Published: 2 months ago
+
+Hands-On with Azure Machine Learning
+ (22)
+Advanced
+Interested in machine learning and predictive analytics? Don’t miss this Azure Machine Learning course, part of an exciting new series from Wintellect and Microsoft. Azure Machine Learning is a cloud-based service for building machine-learning models using a drag-and-drop user interface. With Azure Machine Learning, you can perform sophisticated predictive analytics from data sets large or small, using an assortment of included algorithms or using code algorithms of your own in R and Python.   Join expert Jeff Prosise for an exploration of Azure Machine Learning, and see how to build models for performing sophisticated predictive analytics. Get a fast start on Azure Machine Learning with this hands-on introduction.
+Jeff Prosise - Co-Founder, Wintellect
+Published: 7 months ago
+
+Azure Developer Workshop (Storage, Cognitive, ML, Stream Analytics, Containers, and Docker)
+ (12)
+Advanced
+Looking for a practical, hands-on introduction to Microsoft Azure for developers? This is your course! Watch expert hosts Susan Ibach, of Microsoft, and Jeff Prosise, from Wintellect, and get the details you need on Azure Storage, Azure Stream Analytics, Cognitive Services, Machine Learning, containers, Docker, and much more.   Get an introduction to the Microsoft Cloud Platform, and build a website that passes photos to Cognitive Services for captions and to generate search metadata. Use the interactive Azure Machine Learning Studio to build, train, and score a model that performs optical character recognition (OCR). Examine data with Azure Stream Analytics, and review high-performance computing (HPC) capabilities. Find out how to package a Python app in a Docker container and run it in Azure. Don’t miss this helpful and detailed look at Microsoft Azure.
+Susan Ibach and Jeff Prosise
+Published: 3 months ago
+
+Azure Data Analytics for Developers
+ (7)
+Intermediate
+Want to learn about cutting-edge data science technologies—Azure Machine Learning and Azure Stream Analytics? Join experts Christopher Harrison and Jeff Prosise for this course, which is part of an exciting new series from Wintellect and Microsoft, and see how these technologies can help you, as a developer, to build more intelligent apps.   Walk through the platforms and features, and then see real-world implementation examples, from a developer standpoint. Learn the steps involved in creating and publishing a model, explore building and connecting the app to that model, and see how to build and implement Event Hubs and data collection. Find out what you need to make the most of these technologies for data science applications.
+Christopher Harrison and Jeff Prosise
+Published: 4 months ago
+
+Hands-On with Azure Stream Analytics
+ (13)
+Advanced
+Want to set up real-time analytic computations on data streaming from devices, sensors, websites, social media, apps, and more? Check out this demo-filled, hands-on Azure Stream Analytics training course, part of an exciting new series from Wintellect and Microsoft.   Join expert Jeff Prosise for a fast start on Azure Stream Analytics, a fully managed cloud-based service for analyzing constantly changing streams of data in real time. Learn how, as part of the Microsoft Azure family of data services, it's capable of ingesting millions of events per second, while allowing you to analyze that data.
+Jeff Prosise - Co-Founder, Wintellect
+Published: 7 months ago
+
+Design and Implement Big Data & Advanced Analytics Solutions
+ (20)
+Intermediate
+Would you like to know how to build big data and advanced analytics solutions? This course is a great starting point. Learn features and capabilities of the Microsoft cloud data platform that can help you build solutions using big data and analytics.   Get a platform overview, and hear about Cortana Intelligence Suite, Microsoft Azure Machine Learning, HDInsight, and Microsoft R Server. Learn techniques to design big data processing and interactive solutions, and get the details on processing data in real-time, machine learning APIs, and how to build end-to-end cloud analytics solutions.
+Dandy Weyn, Ted Way, Sam Kemp
+Published: 9 months ago
+
+Dev/Test in the Cloud
+ (35)
+Intermediate
+Are you a developer who needs to deliver faster and better applications? Moving your development and testing environments to the cloud can help you achieve exactly that! Learn how to get it done, and find out the benefits of making the move. Plus, see demonstrations and presentations that show you how Microsoft Azure can support your development and testing needs.   Walk with a team of experts through the ways that Azure, Visual Studio, and Visual Studio Team Services enable development teams to configure enterprise cloud-ready development and testing environments. And get the details on how, as a Microsoft Enterprise Agreement customer, you gain access to lower MSDN rates on virtual machines (VMs), cloud services, and HDInsight, along with reduced rates on other services.
+Steven Borg, David Pitcher, Vishnu Arunachalam, Volodymyr Shram
+Published: 11 months ago
+
+
+Applications on Azure: Putting All the Pieces Together
+ (23)
+Intermediate
+Building in the cloud requires a different approach from traditional application development but also comes with the benefit of many tested, scalable solutions ready for you to take advantage of. In this course, join the experts as they walk through building an application while exploring the parts of Microsoft Azure that make it easier to build great apps.   Take a look at the challenges of building cloud apps and how Azure helps resolve them, review Azure features and services, and explore different approaches to storing application data. Plus, create a logging solution that uses modern approaches to configuration, deployment, and scalability. Get the help you need to build apps with this Azure training.
+James Chambers and Simon Timms
+Published: 1 year ago
+
+Data Science and Machine Learning Essentials
+ (118)
+Advanced
+Interested in data science? Demand for data science talent is exploding. Learn the essentials, with experts from MIT and the industry, partnering with Microsoft, to help develop your career as a Data Scientist.   Find out how to build and derive insights from data science and machine learning models. Explore key concepts in data acquisition, preparation, exploration, and visualization, and take a look at how to build a cloud data science solution using Azure Machine Learning, R, and Python.
+Dr. Steve Elston and Cynthia Rudin
+Published: 1 year ago
+
+Deep Dive into Azure Resource Manager Scenarios and Patterns
+ (27)
+Advanced
+If you have an Azure application with many components or if you're setting up an Azure deployment and you want a logical way to manage the pieces, you're probably already looking at Resource Groups. Find out how you can use Azure Resource Manager (ARM) as a tool help you manage those Resource Groups. Explore ARM with an international team of experts, who show you scripts and tools that make it easy to spin up or spin down elements of your application infrastructure in dev, test, or production.   Get an overview of how Azure services were managed before ARM, take a comprehensive look at what ARM is, see key targeted scenarios for using ARM, and learn about techniques for using ARM effectively. Modify and deploy some of the many Azure Quickstart templates with Visual Studio or PowerShell, and use role-based access control (RBAC) to implement security with ARM. Get lots of helpful details in this informative course.   (NOTE: Want to cut to the chase? Jump directly to the discussion on deploying large end-to-end solutions, in Module 6.)
+Rama Ramani, Aaron Bosley, Silvano Coriani, Stas Kondratiev
+Published: 1 year ago
+
+Building Recommendation Systems in Azure
+ (45)
+Intermediate
+Machine Learning, or Data Science, is one of today's hottest buzzwords. The scenarios in which Azure Machine Learning can be applied are diverse and can range from predicting football scores to personalised recommendations in online shops to predictive maintenance in manufacturing. In this Microsoft Virtual Academy course I will go through various options on how to build recommendation systems using Microsoft Azure Machine Learning, and thus going beyond just finding the products in retail that are in high demand. We start off with an introduction module on machine learning and recommendation systems, followed by the simplest form of a machine learning problem – binary classification. Then we have a closer look at the two main ways to build a recommendation system using RStudio and AzureML. Finally, we go through a scenario using the Recommendations API provided in the Azure Marketplace.
+Olivia Klose - Technical Evangelist, Microsoft
+Published: 1 year ago
+
+Building Apps with Node.js Jump Start
+ (91)
+Intermediate
+Developers, have you ever wanted to play with Node.js? Are you curious about how to incorporate two-way communication into applications? Watch popular experts Stacey Mulcahy and Rami Sayar, and see how to do just that with Node.js, one of the easiest and fastest ways to develop real-time apps on the web today, along with Visual Studio, Azure, and free open source technology. To introduce you to these topics, Stacey and Rami walk you through the creation of a chatroom application.In this course, the fourth in our Web Wednesdays series, see step-by-step demos and get practical tips and detailed explanations. By the end of the day, you know how to set up Node.js on your Windows machine, develop a web front end with Express, deploy an Express app to Azure, use Socket.IO to add a real-time layer, and bring it all together.Instructor |  Stacey Mulcahy -  Microsoft Technology Evangelist; Rami Sayar - Microsoft Developer Evangelist
+Published: 2 years ago
+
+
