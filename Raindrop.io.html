@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+		* {
+			box-sizing: border-box;
+		}
+
+		#myInput {
+			/* background-image: url('/css/searchicon.png');*/
+			background-position: 10px 12px;
+			background-repeat: no-repeat;
+			width: 100%;
+			font-size: 16px;
+			padding: 12px 20px 12px 40px;
+			border: 1px solid #ddd;
+			margin-bottom: 12px;
+		}
+
+		/*
+
+#myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+*/
+		#myUL li {
+			border: 1px solid #ddd;
+			margin-top: -1px;
+			background-color: #f6f6f6;
+			padding: 8px;
+			text-decoration: none;
+			font-size: 14px;
+			color: black;
+			display: block
+		}
+
+
+		#myUL li:hover:not(.header) {
+			background-color: yellow;
+		}
+	</style>
+</head>
+
+<body>
+
+	<TITLE>Raindrop.io Bookmarks</TITLE>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<H1>Raindrop.io Bookmarks</H1>
+
+	<form class="js-form">
+		<input type="text" id="myInput" name="myInput" placeholder="Search for links..." title="Type in a name">
+	</form>
+
+	<div id="test"></div>
+
+	<ul id="myUL">
+	</ul>
+
+	<DL>
+		<p>
+			<DT>
+				<H3 ADD_DATE="0" LAST_MODIFIED="0">Speed Dial</H3>
+				<DL>
+					<p>
+				</DL>
+				<p>
+			<DT>
+				<H3 ADD_DATE="0" LAST_MODIFIED="0">Unsorted</H3>
+				<DL>
+					<p>
+				</DL>
+				<p>
+			<DT>
+				<H3 ADD_DATE="1524250886" LAST_MODIFIED="1524250886">Other bookmarks</H3>
+				<DL>
+					<p>
+						<DT><A HREF="https://www.microsoft.com/net/learn/architecture" ADD_DATE="1500302403"
+								LAST_MODIFIED="1500302403" TAGS=""
+								COVER="https://www.microsoft.com/net/images/redesign/social/square.png">.NET Application
+								Architecture Guidance</A>
+						<DD>Free e-books and practical advice for developing for web, desktop, mobile, and microservices
+							with Docker. Learn how to migrate existing .NET apps to the cloud.
+				</DL>
+				<p>
+			<DT>
+				<H3 ADD_DATE="1524250908" LAST_MODIFIED="1524250908">UTIL</H3>
+				<DL>
+					<p>
+						<DT><A HREF="https://www.easy-youtube-mp3.com/" ADD_DATE="1548528871" LAST_MODIFIED="1548528871"
+								TAGS="" COVER="https://www.easy-youtube-mp3.com/images/easy-youtube-mp3.png">Download
+								Easy
+								YouTube mp3</A>
+						<DD>Easy YouTube mp3 is the best solution to convert any YouTube Video to mp3 very fast. Easy
+							YouTube to mp3 Converter.
+						<DT><A HREF="http://www.amil.com.br/amilportal/site/index.jsp" ADD_DATE="1499871615"
+								LAST_MODIFIED="1499871615" TAGS="" COVER="">Amil Empresa</A>
+						<DT><A HREF="http://www.fazenda.df.gov.br/area.cfm?id_area=40" ADD_DATE="1499871615"
+								LAST_MODIFIED="1499871615" TAGS="" COVER="">IPVA</A>
+						<DT><A HREF="http://www.gdf.df.gov.br/045/04501001.asp" ADD_DATE="1499871615"
+								LAST_MODIFIED="1499871615" TAGS="" COVER="">GDF - Portal do Cidadão</A>
+						<DT><A HREF="http://www.fazenda.df.gov.br/area=767.htm" ADD_DATE="1499871615"
+								LAST_MODIFIED="1499871615" TAGS="" COVER="">IPTU</A>
+						<DT><A HREF="http://pdfpirate.org/" ADD_DATE="1499871615" LAST_MODIFIED="1499871615" TAGS=""
+								COVER="">PDFpirate</A>
+						<DD>Diese Website steht zum Verkauf! pdfpirate.org ist Ihre erste und beste Informationsquelle
+							über
+							pdfpirate. Hier finden Sie auch weitere interessante Links. Wir hoffen, dass Sie bei Ihrer
+							Suche
+							erfolgreich sind!
+						<DT><A HREF="http://www.makeuseof.com/tag/top-10-free-ways-discover-music-online/"
+								ADD_DATE="1499871615" LAST_MODIFIED="1499871615" TAGS=""
+								COVER="https://static.makeuseof.com/wp-content/uploads/2010/02/Guitar.jpg">Top 10 Free
+								Ways
+								To Discover New Music Online</A>
+						<DD>Advertisement
+						<DT><A HREF="http://info.abril.com.br/dicas/cursos/redewifi/curso.html" ADD_DATE="1499871615"
+								LAST_MODIFIED="1499871615" TAGS=""
+								COVER="https://abrilexame.files.wordpress.com/2016/09/tampao-exame1.png">curso
+								Configuracao
+								Redes WI-FI</A>
+						<DD>No segundo semestre deste ano, começa a funcionar, no Rio Grande do Sul, um curso para
+							gestores
+							de churrascarias na Universidade do Vale do Taquari. O projeto inclui parcerias com o Sebrae
+							e
+							uma empresa de automação, a Suprivale, para desenvolver uma franquia de churrascarias no
+							exterior que seriam gerenciadas pelos alunos do curso. Os…
+						<DT><A HREF="http://listen.grooveshark.com/" ADD_DATE="1499871615" LAST_MODIFIED="1499871615"
+								TAGS="" COVER="">Grooveshark - Listen to Free Music Online - Internet Radio - Free MP3
+								Streaming</A>
+						<DT><A HREF="http://www.testepower.com.br/" ADD_DATE="1499871615" LAST_MODIFIED="1499871615"
+								TAGS="" COVER="">GVT teste turbonet</A>
+						<DT><A HREF="http://192.168.1.1/" ADD_DATE="1499871615" LAST_MODIFIED="1499871615" TAGS=""
+								COVER="">http://192.168.1.1/</A>
+						<DT><A HREF="http://www.onlinearcadegames.nl/online-arcade/113-galaga" ADD_DATE="1499871615"
+								LAST_MODIFIED="1499871615" TAGS="" COVER="">Galaga</A>
+						<DT><A HREF="http://pt.youversion.com/reading-plans/category/topical" ADD_DATE="1499871615"
+								LAST_MODIFIED="1499871615" TAGS="" COVER="">Planos de Leitura - YouVersion.com</A>
+						<DT><A HREF="http://www.doctorfeet.net/index.php/home" ADD_DATE="1499871615"
+								LAST_MODIFIED="1499871615" TAGS="" COVER="http://doctorfeet.com.br/_img/logo.png">DOCTOR
+								FEET - Especialista em cuidados para os pés</A>
+						<DD>A Doctor Feet é a maior rede Especializada em serviços de Podologia, voltados aos Cuidados e
+							à
+							Saúde dos Pés. Cada loja oferece Tratamentos, Produtos médicos e ortopédicos, Serviços de
+							Estética e Bem-estar.
+						<DT><A HREF="http://www.commonsensemedia.org/tv-reviews/bakugan-battle-brawlers"
+								ADD_DATE="1499871615" LAST_MODIFIED="1499871615" TAGS=""
+								COVER="https://d2e111jq13me73.cloudfront.net/sites/default/files/styles/share_link_image_large/public/product-images/csm-tv/bakugan-tv.jpg?itok=E_epgiR0">Bakugan
+								Battle Brawlers - Television Review</A>
+						<DD>The parents&#39; guide to what&#39;s in this TV show.
+						<DT><A HREF="http://forthetimeiscoming.blogspot.com/2009/10/is-bakugan-evil-does-it-have-occult_29.html"
+								ADD_DATE="1499871615" LAST_MODIFIED="1499871615" TAGS=""
+								COVER="http://3.bp.blogspot.com/_9hH2n9lUZjo/SuoghcbpZ0I/AAAAAAAAGGE/UfY34FmZcGs/s400/bakugan-team-bakugan-battle-brawlers-2574574-1280-1024.jpg">For
+								the Time is Coming...: Is Bakugan evil? Does it have occult ties? Part 1</A>
+						<DD>For some time now I have been researching the history of various children&#39;s games like
+							Bakugan and Pokemon that at first glance appear to harmless, but I have found to be dark in
+							nature. My interest in this peaked, when my grammar school aged son just had to have
+							Bakugan&#39;s, because &quot;all the kids at school said that it&#39;s awesome&quot;.  I
+							want to
+							be clear here...I am not a legalist Christian who believes everything  is satanic, and every
+							issue we have is due to a demon.  In fact I do believe that there is a lot of charlatans out
+							there who make big money &quot;exorcising demons&quot; who were never reall...
+						<DT><A HREF="http://www.ludimila.info/p/job.html" ADD_DATE="1499871615"
+								LAST_MODIFIED="1499871615" TAGS="" COVER="">Daily Life in DK...: JOB</A>
+						<DT><A HREF="http://balexandre.wordpress.com/quero-ir-para-a-dinamarca-viver/"
+								ADD_DATE="1499871615" LAST_MODIFIED="1499871615" TAGS="" COVER="">Quero ir para a
+								Dinamarca viver! « balexandre
+								(um Português na Dinamarca)</A>
+						<DT><A HREF="http://www.computerjobs.com/Search?Skills=.net%20C%23&Page=1" ADD_DATE="1499871615"
+								LAST_MODIFIED="1499871615" TAGS="" COVER="">IT &amp; Telecommunications jobs for .net
+								C#,
+								Page 1 of 38 | ComputerJobs.com</A>
+						<DT><A HREF="http://scratch.mit.edu/" ADD_DATE="1499871615" LAST_MODIFIED="1499871615" TAGS=""
+								COVER="https://scratch.mit.edu/images/scratch-og.png">Scratch | Home | imagine, program,
+								share</A>
+						<DD>Scratch is a free programming language and online community where you can create your own
+							interactive stories, games, and animations.
+						<DT><A HREF="http://www.entrepanelas.net/2009/01/06/appeltaart-torta-de-maca-holandesa/"
+								ADD_DATE="1499871615" LAST_MODIFIED="1499871615" TAGS=""
+								COVER="https://www.entrepanelas.net/wp-content/uploads/2009/01/torta_maca_holandesa.jpg">Receita
+								de torta de maçã holandesa – Appeltaart</A>
+						<DD>Descubra a verdadeira torta holandesa: a torta de maçã. Uma deliciosa receita típica da
+							culinária holandesa simples de preparar (acompanha fotos).
+						<DT><A HREF="http://tudogostoso.uol.com.br/receita/11648-torta-de-maca.html"
+								ADD_DATE="1499871615" LAST_MODIFIED="1499871615" TAGS=""
+								COVER="http://img.itdg.com.br/images/recipes/000/011/648/38611/38611_original.jpg">Receita
+								de Torta de maçã - Tudo Gostoso</A>
+						<DD>Aprenda a preparar a receita de Torta de maçã
+						<DT><A HREF="http://fromourhometoyours.blogspot.com/2008/02/apple-pie-torta-de-ma-americana.html"
+								ADD_DATE="1499871615" LAST_MODIFIED="1499871615" TAGS=""
+								COVER="http://2.bp.blogspot.com/_ECfBo7Kvpvs/R8CS254438I/AAAAAAAACrs/Zvo3uh56DXc/s400/TortaMacaThanksgvg+003+%28Small%29.jpg">Receitas
+								- From our home to yours - Português: Apple Pie - Torta de Maçã Americana</A>
+						<DD>Tão americana quanto apple pie... é esta sobremesa que está se popularizando entre nós com a
+							ajudinha dos blogs! Parece que ela não foi inve...
+						<DT><A HREF="http://www.brigil.com/admin/Files/2559heron_jardins.pdf" ADD_DATE="1499871615"
+								LAST_MODIFIED="1499871615" TAGS="" COVER="">2559heron_jardins.pdf (application/pdf
+								Object)</A>
+						<DT><A HREF="http://www.brigil.com/en/emplacements/plateau_parc.asp" ADD_DATE="1499871615"
+								LAST_MODIFIED="1499871615" TAGS="" COVER="">Le groupe BRIGIL construction - Nos
+								emplacements
+								- Plateau du Parc</A>
+						<DT><A HREF="http://www.legit.ca/imm.html" ADD_DATE="1499871615" LAST_MODIFIED="1499871615"
+								TAGS="" COVER="http://www.legit.ca/images/pink_triangle.gif">LEGIT | To Immigrate</A>
+						<DD>Types Of Applications:
+						<DT><A HREF="http://www.diariopopular.com.br/site/content/informe-economico/index.php"
+								ADD_DATE="1499871615" LAST_MODIFIED="1499871615" TAGS="" COVER="">Diário Popular |
+								Pelotas</A>
+						<DT><A HREF="http://www.ikasinternational.com/" ADD_DATE="1499871615" LAST_MODIFIED="1499871615"
+								TAGS="" COVER="https://www.ikasinternational.com/media/ikas/images/logo-og.png">iKas
+								International Financial Market Technology Jobs &amp; Recruitment UK Hong Kong Singapore
+								Australia</A>
+						<DD>Partnering all candidates has always been central to what iKas International stands for.
+						<DT><A HREF="http://www.avanade.com/pt-br/Pages/default.aspx" ADD_DATE="1499871615"
+								LAST_MODIFIED="1499871615" TAGS=""
+								COVER="https://www.avanade.com/pt-br/~/media/logo/share-avanade-logo.jpg">Avanade Brasil
+								–
+								Soluções em tecnologia de negócios e serviços gerenciados</A>
+						<DD>Avanade é líder em soluções em tecnologia de negócios e serviços gerenciados com percepções
+							inovadoras, com especialização nas tecnologias Microsoft, que ajuda clientes a obterem
+							resultados todos os dias.
+						<DT><A HREF="http://www.windowsupgradeoffer.com/pt-BR" ADD_DATE="1499871615"
+								LAST_MODIFIED="1499871615" TAGS="" COVER="">Oferta de atualização do Windows - Página
+								inicial</A>
+						<DT><A HREF="http://www.dell.com/support/drivers/br/pt/brdhs1/ServiceTag/DVPQ2V1"
+								ADD_DATE="1499871615" LAST_MODIFIED="1499871615" TAGS="" COVER="">Drivers e downloads |
+								Dell
+								Brasil</A>
+						<DD>Ihr Produkt identifizieren
+						<DT><A HREF="http://www.knowyourbiblerecordings.org/sermons.php?listing=old"
+								ADD_DATE="1499871615" LAST_MODIFIED="1499871615" TAGS=""
+								COVER="http://www.knowyourbiblerecordings.org/french/Fr_flag_small.jpg">Stuart
+								Olyott-Bible
+								Recordings: Sermons</A>
+						<DD>Know Your Bible Recordings contains sermons from Stuart Olyott
+						<DT><A HREF="http://www.timeanddate.com/" ADD_DATE="1499871615" LAST_MODIFIED="1499871615"
+								TAGS="" COVER="https://c.tadst.com/gfx/og/tadlogo-facebook.png">timeanddate.com</A>
+						<DD>Current Time (World Clock) and online and printable Calendars for countries worldwide. Find
+							the
+							best time for web meetings (Meeting Planner) or use the Time and Date Converters. Online
+							services and Apps available for iPhone, iPad, and Android.
+						<DT><A HREF="http://windirstat.info/download.html" ADD_DATE="1499871615"
+								LAST_MODIFIED="1499871615" TAGS=""
+								COVER="https://windirstat.net/images/wds_rich_preview.png">WinDirStat - Permalinks
+								to downloads and other content</A>
+						<DD>Windows Directory Statistics cleanup tool
+				</DL>
+				<p>
+			<DT>
+				<H3 ADD_DATE="1524250908" LAST_MODIFIED="1524250908">WEB-HOSTING</H3>
+				<DL>
+					<p>
+						<DT><A HREF="http://www.gerenciandoblog.com.br/2011/09/como-redirecionar-seus-dominios.html"
+								ADD_DATE="1499871613" LAST_MODIFIED="1499871613" TAGS="" COVER="">Como redirecionar seus
+								domínios secundários para o principal - Gerenciando Blog</A>
+						<DT><A HREF="https://support.godaddy.com/help/article/422/manually-forwarding-or-masking-your-domain-name?prog_id=GoDaddy"
+								ADD_DATE="1499871613" LAST_MODIFIED="1499871613" TAGS="" COVER="">Manually Forwarding or
+								Masking Your Domain Name | GoDaddy Help | GoDaddy Support</A>
+						<DD>Domain name forwarding lets you automatically direct your domain name&#39;s visitors to a
+							different website. Masking prevents visitors from seeing your domain name forwarding by
+							keeping
+							your domain name in the Web browser&#39;s address bar.
+						<DT><A HREF="https://dcc.godaddy.com/dcc50/DomainDetails.aspx?domainid=194514455"
+								ADD_DATE="1499871613" LAST_MODIFIED="1499871613" TAGS="" COVER="">Domain Details
+								IsoMazza</A>
+						<DT><A HREF="https://p3nwvpweb091.shr.prod.phx3.secureserver.net:8443/login_up.php3"
+								ADD_DATE="1499871613" LAST_MODIFIED="1499871613" TAGS="" COVER="">Parallels Plesk
+								12.0.18
+								for Microsoft Windows</A>
+						<DT><A HREF="https://a2nwvpweb063.shr.prod.iad2.secureserver.net:8443/login_up.php3"
+								ADD_DATE="1499871613" LAST_MODIFIED="1499871613" TAGS="" COVER="">GODADDY PLESK</A>
+						<DT><A HREF="https://sso.secureserver.net/login?app=email&realm=pass" ADD_DATE="1499871613"
+								LAST_MODIFIED="1499871613" TAGS="" COVER="">webmail - Godaddy</A>
+				</DL>
+				<p>
+			<DT>
+				<H3 ADD_DATE="1524250908" LAST_MODIFIED="1524250908">ARToolKit</H3>
+				<DL>
+					<p>
+						<DT><A HREF="http://meta-guide.com/videography/100-best-artoolkit-videos" ADD_DATE="1499871613"
+								LAST_MODIFIED="1499871613" TAGS=""
+								COVER="http://i.ytimg.com/vi/1k_gblJ5Ogk/default.jpg">100
+								Best ARToolKit Videos | Meta-Guide.com</A>
+						<DT><A HREF="http://www.seucurso.com.br/index.php?option=com_content&view=article&id=61:como-configurar-e-usar-o-artoolkit-em-poucos-passos&catid=903:softwares&Itemid=67"
+								ADD_DATE="1499871613" LAST_MODIFIED="1499871613" TAGS="" COVER="">Como configurar e usar
+								o
+								ARToolKit em poucos passos</A>
+						<DT><A HREF="https://github.com/RaghavSood/ProAndroidAugmentedReality" ADD_DATE="1499871613"
+								LAST_MODIFIED="1499871613" TAGS=""
+								COVER="https://avatars3.githubusercontent.com/u/903072?s=400&v=4">RaghavSood/ProAndroidAugmentedReality</A>
+						<DD>ProAndroidAugmentedReality - Official repository for Pro Android Augmented Reality
+							(http://www.apress.com/9781430239451)
+						<DT><A HREF="https://code.google.com/archive/p/andar/" ADD_DATE="1499871613"
+								LAST_MODIFIED="1499871613" TAGS="" COVER="">AndAR - Android Augmented Reality</A>
+						<DT><A HREF="https://code.google.com/archive/p/droiddraw/source/default/source"
+								ADD_DATE="1499871613" LAST_MODIFIED="1499871613" TAGS="" COVER="">droiddraw</A>
+						<DT><A HREF="https://dev.botframework.com/" ADD_DATE="1499871613" LAST_MODIFIED="1499871613"
+								TAGS="" COVER="">Microsoft Bot Framework</A>
+						<DT><A HREF="https://www.microsoft.com/cognitive-services" ADD_DATE="1499871613"
+								LAST_MODIFIED="1499871613" TAGS=""
+								COVER="https://azurecomcdn.azureedge.net/cvt-4ba1ac63410bb2bbe9f1c2a7bedc57894bbe9754309d9d380deedcdf7850047e/images/shared/social/azure-icon-250x250.png">Microsoft
+								Cognitive Services</A>
+						<DD>Add vision, speech, language and knowledge capabilities to your apps with artificial
+							intelligence APIs from Cognitive Services. Explore our APIs today.
+						<DT><A HREF="https://karanbalkar.com/2012/10/augmented-reality-in-android-part-1/"
+								ADD_DATE="1499871613" LAST_MODIFIED="1499871613" TAGS="" COVER="">Augmented Reality in
+								Android</A>
+						<DT><A HREF="https://github.com/search?p=1&q=android+camera+overlay&type=Repositories&utf8=%E2%9C%93"
+								ADD_DATE="1499871613" LAST_MODIFIED="1499871613" TAGS=""
+								COVER="https://assets-cdn.github.com/images/modules/open_graph/github-logo.png">Search ·
+								android camera overlay · GitHub</A>
+						<DD>GitHub is where people build software. More than 27 million people use GitHub to discover,
+							fork,
+							and contribute to over 80 million projects.
+						<DT><A HREF="http://blog.codeonion.com/tutorials/opencv-for-android-tutorials/"
+								ADD_DATE="1499871613" LAST_MODIFIED="1499871613" TAGS=""
+								COVER="http://blog.codeonion.com/wp-content/uploads/2015/11/OpenCV-for-Android.gif">OpenCV
+								for Android Tutorials</A>
+						<DD>OpenCV for Android (OpenCV4Android) Tutorials Series
+						<DT><A HREF="http://blog.codeonion.com/2015/11/25/creating-a-new-opencv-project-in-android-studio/"
+								ADD_DATE="1499871613" LAST_MODIFIED="1499871613" TAGS=""
+								COVER="https://i2.wp.com/blog.codeonion.com/wp-content/uploads/2015/11/Android-Studio-Create-New-Project.gif?resize=525%2C361">Creating
+								a new OpenCV project in Android Studio</A>
+						<DD>In this tutorial, we will create a new OpenCV project in Android Studio. Since you have
+							everything downloaded already, we are ready to move on. By the end of this tutorial, you
+							will
+							have a new project set up, which you can use to build your projects upon.
+						<DT><A HREF="http://www.doepiccoding.com/blog/?author=1" ADD_DATE="1499871613"
+								LAST_MODIFIED="1499871613" TAGS=""
+								COVER="http://www.doepiccoding.com/blog/wp-content/uploads/2014/07/final_chiron_icon-300x300.png">Android
+								- Canvas Manipulation with SurfaceView</A>
+						<DT><A HREF="http://www.mixare.org/download/" ADD_DATE="1499871613" LAST_MODIFIED="1499871613"
+								TAGS="" COVER="">Download | mixare</A>
+						<DT><A HREF="https://mobiforge.com/design-development/using-google-maps-android"
+								ADD_DATE="1499871613" LAST_MODIFIED="1499871613" TAGS=""
+								COVER="https://mobiforge.com/wp-content/uploads/2015/11/fdecomite.jpg">Using Google Maps
+								in
+								Android - mobiForge</A>
+						<DD>Google Maps comes bundled with Android. This article shows how to do some cool things by
+							integrating Maps into your Android apps
+						<DT><A HREF="https://mobiforge.com/design-development/consuming-json-services-android-apps"
+								ADD_DATE="1499871613" LAST_MODIFIED="1499871613" TAGS=""
+								COVER="https://mobiforge.com/wp-content/uploads/2015/11/Paul-Stainthorp.jpg">Consuming
+								JSON
+								services in Android apps - mobiForge</A>
+						<DD>Unless you are writing a Hello World Android application, chances are your application would
+							need to connect to the outside world to fetch some data, such as live currency exchange
+							rates,
+							weather information, records from databases, etc. One of the easiest ways for your
+							application
+							to connect to the outside world is to use web services. For the past few years, XML web
+							services
+							have dominated the arena for web services, as XML was touted as the ubiquitous medium for
+							data
+							exchange. However, using XML as the medium for your data payload suffers from the following
+							problems:
+						<DT><A HREF="https://mobiforge.com/design-development/preserving-user-preferences-android-applications"
+								ADD_DATE="1499871613" LAST_MODIFIED="1499871613" TAGS=""
+								COVER="https://mobiforge.com/wp-content/uploads/2015/11/Scarygami.jpg">Preserving User
+								Preferences in Android Applications - mobiForge</A>
+						<DD>Often you need to store personalized information for each user of your application. For
+							example,
+							your application may require users to logon to a secure server for authentication. In this
+							case,
+							the user needs to supply his credentials, such as a login name and a password. The first
+							time
+							the user uses your application this information will be entered by the user, but
+							subsequently it
+							would be useful for your application to “remember” this information somewhere so that it can
+							save the user the trouble of entering the same information every time he uses your
+							application.
+						<DT><A HREF="http://stackoverflow.com/questions/12283675/augmented-reality-sdk-with-opencv"
+								ADD_DATE="1499871613" LAST_MODIFIED="1499871613" TAGS=""
+								COVER="https://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon@2.png?v=73d79a89bded">Augmented
+								Reality SDK with OpenCV - Stack Overflow</A>
+						<DD>I am developing an Augmented Reality SDK on OpenCV. I had some problems to find tutorials on
+							the
+							topic, which steps to follow, possible algorithms, fast and efficient coding for real-time
+							performan...
+						<DT><A HREF="https://github.com/MasteringOpenCV/code" ADD_DATE="1499871613"
+								LAST_MODIFIED="1499871613" TAGS=""
+								COVER="https://avatars1.githubusercontent.com/u/2998961?s=400&v=4">GitHub -
+								MasteringOpenCV/code: Code for the book &quot;Mastering OpenCV with Practical Computer
+								Vision Projects&quot; by Packt Publishing 2012.</A>
+						<DD>code - Code for the book &quot;Mastering OpenCV with Practical Computer Vision
+							Projects&quot; by
+							Packt Publishing 2012.
+						<DT><A HREF="http://www.uco.es/investiga/grupos/ava/node/26" ADD_DATE="1499871613"
+								LAST_MODIFIED="1499871613" TAGS="" COVER="">ArUco: a minimal library for Augmented
+								Reality
+								applications based on OpenCV | Aplicaciones de la Visión Artificial</A>
+						<DT><A HREF="https://code.google.com/archive/p/mixare/" ADD_DATE="1499871613"
+								LAST_MODIFIED="1499871613" TAGS="" COVER="">MIXARE</A>
+						<DT><A HREF="https://github.com/mixare/mixare" ADD_DATE="1499871613" LAST_MODIFIED="1499871613"
+								TAGS="" COVER="https://avatars2.githubusercontent.com/u/344582?s=400&v=4">GitHub -
+								mixare/mixare: mixare (mix Augmented Reality Engine) is a free open source augmented
+								reality
+								browser, which is published under the GPLv3.</A>
+						<DD>mixare (mix Augmented Reality Engine) is a free open source augmented reality browser, which
+							is
+							published under the GPLv3.
+						<DT><A HREF="https://developer.android.com/guide/topics/graphics/view-animation.html"
+								ADD_DATE="1499871613" LAST_MODIFIED="1499871613" TAGS=""
+								COVER="https://developer.android.com/_static/d7147bb846/images/android/favicon.png">View
+								Animation | Android Developers</A>
+						<DD>You can use the view animation system to perform tweened animation on Views. Tween animation
+							calculates the animation with information such as the start point, end point, size,
+							rotation,
+							and other common aspects of an animation. A tween animation can …
+						<DT><A HREF="http://mathforum.org/library/drmath/view/55417.html" ADD_DATE="1499871613"
+								LAST_MODIFIED="1499871613" TAGS="" COVER="">Math Forum - Ask Dr. Math</A>
+						<DT><A HREF="http://stackoverflow.com/questions/16764075/cartesian-coordinate-system-in-perspective-projection?noredirect=1"
+								ADD_DATE="1499871613" LAST_MODIFIED="1499871613" TAGS=""
+								COVER="https://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon@2.png?v=73d79a89bded">android
+								camera - Cartesian Coordinate System in Perspective Projection - Stack Overflow</A>
+						<DD>I&#39;m still implementing a perspective projection for my augmented reality application.
+							I&#39;ve already asked some questions about the viewport-calculation and other camera stuff,
+							which is explained from
+						<DT><A HREF="https://github.com/lycha/augmented-reality-example" ADD_DATE="1499871613"
+								LAST_MODIFIED="1499871613" TAGS=""
+								COVER="https://avatars3.githubusercontent.com/u/2149517?s=400&v=4">GitHub -
+								lycha/augmented-reality-example: Android Implementation of Augmented Reality</A>
+						<DD>augmented-reality-example - Android Implementation of Augmented Reality
+						<DT><A HREF="https://www.netguru.co/blog/augmented-reality-mobile-android" ADD_DATE="1499871613"
+								LAST_MODIFIED="1499871613" TAGS=""
+								COVER="https://www.netguru.co/hs-fs/hub/493098/file-3694354975-gif/blog-files/1446643464-image01.gif?t=1524221803358">Augmented
+								Reality in Mobile Devices (with App Tutorial for Android!)</A>
+						<DT><A HREF="http://code.tutsplus.com/tutorials/android-sdk-augmented-reality-camera-sensor-setup--mobile-7873"
+								ADD_DATE="1499871613" LAST_MODIFIED="1499871613" TAGS=""
+								COVER="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/7403/images/7403_c1ac0306b7a783bec24c477eda431d6d.png">Android
+								SDK Augmented Reality: Camera &amp; Sensor Setup</A>
+						<DD>Augmented reality (AR) is a hot topic in mobile apps today. Smartphones and tablets have the
+							power and the hardware capable of enabling developers to write interesting new applications
+							that...
+						<DT><A HREF="http://code.tutsplus.com/tutorials/android-sdk-augmented-reality-location-distance--mobile-8004"
+								ADD_DATE="1499871613" LAST_MODIFIED="1499871613" TAGS=""
+								COVER="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/15993/images/15993_7b390967d0c4847bddfc53355849fbfa.png">Android
+								SDK Augmented Reality: Location &amp; Distance</A>
+						<DD>Welcome to Part 2 of our series on building augmented reality applications on the Android
+							platform. In Part 1, you learned how to use the camera, draw text over the camera view, and
+							retrieve...
+						<DT><A HREF="https://github.com/lewisde/mixareForAndroidStudio" ADD_DATE="1499871613"
+								LAST_MODIFIED="1499871613" TAGS=""
+								COVER="https://avatars0.githubusercontent.com/u/2001602?s=400&v=4">GitHub -
+								lewisde/mixareForAndroidStudio</A>
+						<DD>Contribute to mixareForAndroidStudio development by creating an account on GitHub.
+				</DL>
+				<p>
+			<DT>
+				<H3 ADD_DATE="1524250908" LAST_MODIFIED="1524250908">ANDROID</H3>
+				<DL>
+					<p>
+						<DT><A HREF="https://www.materialpalette.com/" ADD_DATE="1499871613" LAST_MODIFIED="1499871613"
+								TAGS="" COVER="https://www.materialpalette.com/images/palette/facebook.png">Material
+								Design
+								Color Palette Generator - Material Palette</A>
+						<DD>Choose your favorite colors and get your Material Design palette generated and downloadable.
+						<DT><A HREF="https://www.udacity.com/course/new-android-fundamentals--ud851"
+								ADD_DATE="1499871613" LAST_MODIFIED="1499871613" TAGS=""
+								COVER="https://d20vrrgs8k4bvw.cloudfront.net/images/courses/thumbnails/ud851_thumbnail.jpg">Developing
+								Android Apps | Udacity</A>
+						<DD>Bau eine mit der Cloud verbundene Android App. Dadurch lernst du alle Tools, Prinzipien und
+							Best
+							Practices des Mobile und Android Development kennen, die du bei deinen eigenen Projekten
+							anwenden wirst.
+						<DT><A HREF="https://www.pluralsight.com/paths/android" ADD_DATE="1499871613"
+								LAST_MODIFIED="1499871613" TAGS=""
+								COVER="https://pluralsight.imgix.net/paths/path-icons/android-53f8da146d.png">Android
+								Learning Path: Learn Android Development | Pluralsight</A>
+						<DD>Android is an open-source operating system maintained by Google that runs on over 80% of all
+							mobile handsets today. Android provides an adaptive app framework that allows you to provide
+							unique resources for different device configurations. Apps are developed using the Java
+							language
+							in tandem with the Android SDK. This path will start you out with the basics of Android and
+							Android studio, before fine-tuning your skills to make beautiful and functional apps. For
+							those
+							interested, we have the [Associate Android
+							Developer](https://app.pluralsight.com/paths/skill/google-android-associate-develop...
+						<DT><A HREF="https://material.io/icons/" ADD_DATE="1499871613" LAST_MODIFIED="1499871613"
+								TAGS="" COVER="https://material.io/icons/static/images/icons-share.png">Material icons -
+								Material
+								Design</A>
+						<DD>Material icons are beautifully crafted, delightful, and easy to use in your web, Android,
+							and
+							iOS projects.
+						<DT><A HREF="https://developer.android.com/samples/index.html" ADD_DATE="1499871613"
+								LAST_MODIFIED="1499871613" TAGS=""
+								COVER="https://developer.android.com/samples/screenshots/architecture.png">Samples |
+								Android
+								Developers</A>
+						<DT><A HREF="https://www.udemy.com/curso-completo-desenvolvedor-android/learn/v4/overview"
+								ADD_DATE="1499871613" LAST_MODIFIED="1499871613" TAGS="" COVER="">Curso Completo do
+								Desenvolvedor Android M - Crie 10 Apps | Udemy</A>
+						<DT><A HREF="http://a2zandroidtutorials.blogspot.com.br/2012/07/textview-large-text-medium-text-small.html"
+								ADD_DATE="1499871613" LAST_MODIFIED="1499871613" TAGS=""
+								COVER="http://1.bp.blogspot.com/-Dxh5mE3RfjA/UA705_F1GCI/AAAAAAAAARM/aLeptNGxvUs/s640/1.png">TextView,
+								Large Text, Medium Text &amp; Small Text</A>
+						<DD>Step 1 : Follow the first 7 steps of Static and Dynamic TextView Creation Application .    
+							Step
+							2 : Add the follow...
+						<DT><A HREF="http://www.thiengo.com.br/" ADD_DATE="1499871613" LAST_MODIFIED="1499871613"
+								TAGS=""
+								COVER="https://www.thiengo.com.br/img/system/logo/thiengo-2000x1024.fw.png">Thiengo</A>
+						<DD>Blog de Desenvolvimento Android, Web, Empreendedorismo e outros assuntos relacionados
+						<DT><A HREF="http://www.thiengo.com.br/estudando-android-lista-de-conteudos-do-blog"
+								ADD_DATE="1499871613" LAST_MODIFIED="1499871613" TAGS=""
+								COVER="https://www.thiengo.com.br/img/post/normal/2au1ng67ljs7l290vsjk2c5h4234addd35a2a4cf99804f377f6215dc5e.gif">Estudando
+								Android - Lista de Conteúdos do Blog</A>
+						<DD>Estude pela lista ordenada de conteúdos gratuitos do Blog para você aprender a desenvolver
+							seus
+							próprios aplicativos Android.
+						<DT><A HREF="http://stackoverflow.com/documentation/android/topics" ADD_DATE="1499871613"
+								LAST_MODIFIED="1499871613" TAGS=""
+								COVER="https://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon@2.png?v=73d79a89bded">All
+								Android Topics - Stack Overflow</A>
+						<DD>Stack Overflow | The World’s Largest Online Community for Developers
+				</DL>
+				<p>
+			<DT>
+				<H3 ADD_DATE="1524250908" LAST_MODIFIED="1524250908">PORTUGAL</H3>
+				<DL>
+					<p>
+						<DT><A HREF="http://www.sef.pt/portal/v10/PT/aspx/apoioCliente/index.aspx?spand=2#0"
+								ADD_DATE="1499871613" LAST_MODIFIED="1499871613" TAGS="" COVER="">Portal SEF</A>
+						<DT><A HREF="https://servicos.dpf.gov.br/sinic-certidao/emitirCertidao.html"
+								ADD_DATE="1499871613" LAST_MODIFIED="1499871613" TAGS="" COVER="">MJ-DPF Certid?de
+								Antecedentes Criminais</A>
+						<DT><A HREF="http://consuladoportugalsp.org.br/perguntas-mais-frequentes/#h11"
+								ADD_DATE="1499871613" LAST_MODIFIED="1499871613" TAGS="" COVER="">Perguntas mais
+								frequentes | Consulado Geral de
+								Portugal em São Paulo</A>
+						<DT><A HREF="http://sna.saude.gov.br/cdam/" ADD_DATE="1499871613" LAST_MODIFIED="1499871613"
+								TAGS="" COVER="http://sna.saude.gov.br/cdam/imagens/b_cabo_verde.gif">SNA - Sistema
+								Nacional de
+								Auditoria</A>
+						<DT><A HREF="http://vivertrabalhareestudarnoexterior.com/pb-4-5-passos-para-obter-o-direito-assistencia-medica-em-portugal/"
+								ADD_DATE="1499871613" LAST_MODIFIED="1499871613" TAGS=""
+								COVER="http://vivertrabalhareestudarnoexterior.com/wp-content/uploads/2016/02/PB-4-Portugal-ID.jpg">PB-4:
+								5 passos para obter o direito à assistência médica em Portugal!</A>
+						<DD>Saiba quais os passos necessários para solicitar o PB-4, o documento que dá, aos cidadãos
+							brasileiros, direito à assistência médica em Portugal.
+						<DT><A HREF="http://praladoatlantico.blogspot.com.br/2012/07/formulario-pb4.html"
+								ADD_DATE="1499871613" LAST_MODIFIED="1499871613" TAGS="" COVER="">Pra lá do Atlântico:
+								Formulário PB4</A>
+						<DD>Blog feito por estudantes sobre os passos e as histórias sobre o intercâmbio feito para a
+							Europa, mais especificamente, Aveiro em Portugal.
+						<DT><A HREF="http://www.secomunidades.pt/vistos/index.php?option=com_content&view=article&id=162&Itemid=142&lang=pt"
+								ADD_DATE="1499871613" LAST_MODIFIED="1499871613" TAGS="" COVER="">Registar - Portal das
+								Comunidades Portuguesas / Vistos</A>
+						<DT><A HREF="https://www.youtube.com/watch?v=5snEWGI512k" ADD_DATE="1499871613"
+								LAST_MODIFIED="1499871613" TAGS=""
+								COVER="https://i.ytimg.com/vi/5snEWGI512k/hqdefault.jpg">HOW TO FILL SCHENGEN VISA
+								APPLICATION FORM - YouTube</A>
+						<DD>GET $15 CASHBACK ON BOOKING.COM ON HOTEL BOOKING: https://www.booking.com/s/23_8/2c5a78f9
+							Please
+							join my Facebook page and share your travel experience https...
+						<DT><A HREF="https://www.youtube.com/watch?v=3wUnPTVdAIU&feature=youtu.be" ADD_DATE="1499871613"
+								LAST_MODIFIED="1499871613" TAGS=""
+								COVER="https://i.ytimg.com/vi/3wUnPTVdAIU/hqdefault.jpg">How to Fill-in the Schengen
+								Visa
+								Application Form - YouTube</A>
+						<DD>Website: http://www.schengenvisainfo.com / Follow us on Facebook:
+							http://smarturl.it/SchengenVisaInfoFCB // Subscribe to our YouTube channel:
+							http://smarturl...
+						<DT><A HREF="http://www.schengenvisainfo.com/how-to-fill-visa-application-form/"
+								ADD_DATE="1499871613" LAST_MODIFIED="1499871613" TAGS=""
+								COVER="https://www.schengenvisainfo.com/wp-content/uploads/2016/07/schengen-visa-application-form.png">How
+								to Fill-in the Schengen Visa Application Form - Schengen VISA Information</A>
+						<DD>Download the Schengen Visa application form and fill it in cautiously and honestly as
+							described
+							below. Bear in mind that any false statements will result in your visa being refused. 1.
+							Surname
+							(Family Name) Write your name as indicated on your passport (Please do not add the words
+							“married name” and the name of your husband)! …
+						<DT><A HREF="http://www.maputo.diplo.de/contentblob/4947672/Daten/7160077/MB_Anleitung_Antrag_Schengen.pdf"
+								ADD_DATE="1499871613" LAST_MODIFIED="1499871613" TAGS="" COVER="">Microsoft Word -
+								Anleitung
+								Schengenvisum.docx</A>
+				</DL>
+				<p>
+			<DT>
+				<H3 ADD_DATE="1524250908" LAST_MODIFIED="1524250908">NET.CORE</H3>
+				<DL>
+					<p>
+						<DT><A HREF="https://docs.microsoft.com/en-us/aspnet/core/" ADD_DATE="1499871613"
+								LAST_MODIFIED="1499871613" TAGS=""
+								COVER="https://docs.microsoft.com/_themes/docs.theme/master/en-us/_themes/images/microsoft-header.png">Introduction
+								to ASP.NET Core | Microsoft Docs</A>
+						<DD>Get an introduction to ASP.NET Core, a cross-platform, high-performance, open-source
+							framework
+							for building modern, cloud-based, Internet-connected applications.
+						<DT><A HREF="https://github.com/ardalis?page=2&tab=repositories" ADD_DATE="1499871613"
+								LAST_MODIFIED="1499871613" TAGS=""
+								COVER="https://avatars2.githubusercontent.com/u/782127?s=400&v=4">ardalis (Steve Smith)
+								/
+								Repositories · GitHub</A>
+						<DD>ardalis has 94 repositories available. Follow their code on GitHub.
+						<DT><A HREF="http://ardalis.com/when-should-you-upgrade-to-asp-net-core" ADD_DATE="1499871613"
+								LAST_MODIFIED="1499871613" TAGS=""
+								COVER="https://ardalis.com/wp-content/uploads/2017/05/aspnetcore-logo-591x360.png">When
+								Should You Upgrade to ASP.NET Core? | ardalis</A>
+						<DD>ASP.NET Core 1.0 shipped last summer. Then ASP.NET Core 1.1 shipped last fall. Overall, the
+							framework and server-side components have been pretty solid, with
+						<DT><A HREF="http://codeclimber.net.nz/archive/2017/04/20/free-ebook-on-aspnet-core-is-available-for-download"
+								ADD_DATE="1499871613" LAST_MODIFIED="1499871613" TAGS=""
+								COVER="http://codeclimber.net.nz/media/1004/asp_net_core_succinctly.png?center=0.24,0.59197324414715724&mode=crop&width=200&height=200&rnd=131371680740000000">Free
+								eBook on ASP.Net Core is available for download - CodeClimber</A>
+						<DD>My latest ebook, ASP.NET Core Succinctly, writting together with Ugo Lattanzi has just been
+							published and is available for free from Syncfusion
+						<DT><A HREF="https://www.syncfusion.com/resources/techportal/ebookconfirm/asp_net_core_succinctly/sitevisitors"
+								ADD_DATE="1499871613" LAST_MODIFIED="1499871613" TAGS="" COVER="">Confirmation-ASP.NET
+								Core
+								Succinctly :Syncfusion</A>
+						<DT><A HREF="https://msdn.microsoft.com/en-us/magazine/mt707525.aspx" ADD_DATE="1499871613"
+								LAST_MODIFIED="1499871613" TAGS="" COVER="">ASP.NET - Use Custom Middleware to Detect
+								and
+								Fix 404s in ASP.NET Core Apps</A>
+						<DT><A HREF="https://docs.docker.com/compose/aspnet-mssql-compose/" ADD_DATE="1499871613"
+								LAST_MODIFIED="1499871613" TAGS=""
+								COVER="https://docs.docker.com/favicons/docs@2x.ico">Quickstart: Compose and ASP.NET
+								Core
+								with SQL Server | Docker Documentation</A>
+						<DD>Create a Docker Compose application using ASP.NET Core and SQL Server on Linux in Docker.
+						<DT><A HREF="https://github.com/JeremySkinner/FluentValidation" ADD_DATE="1499871613"
+								LAST_MODIFIED="1499871613" TAGS=""
+								COVER="https://avatars1.githubusercontent.com/u/90130?s=400&v=4">GitHub -
+								JeremySkinner/FluentValidation: A small validation library for .NET that uses a fluent
+								interface and lambda expressions for building validation rules.</A>
+						<DD>FluentValidation - A small validation library for .NET that uses a fluent interface and
+							lambda
+							expressions for building validation rules.
+				</DL>
+				<p>
+	</DL>
+	<p>
+
+		<script type="text/javascript">
+
+			// Attach the event handler to the form element
+			document.querySelector('.js-form')?.addEventListener('submit', e => {
+				e.preventDefault();
+				myFunction(e.currentTarget.myInput.value);
+			});
+
+			function myFunction(wordSearch) {
+
+				if (wordSearch == "") {
+					const ul = document.getElementById('myUL')
+					while (ul.hasChildNodes()) {
+						ul.removeChild(ul.lastChild);
+					}
+					return;
+				}
+
+				var a_element_collection = document.getElementsByTagName("a");
+
+				console.clear();
+
+				const ul = document.getElementById('myUL')
+				while (ul.hasChildNodes()) {
+					ul.removeChild(ul.lastChild);
+				}
+
+				var ul_object = $("#myUL");
+
+				for (i = 0; i < a_element_collection.length; i++) {
+
+					var txtValue = a_element_collection[i].innerText.toString();
+
+					if (txtValue.toLowerCase().indexOf(wordSearch.toLowerCase()) > -1) {
+
+						ul_object.append('<li><strong>' + a_element_collection[i].innerHTML + ' <strong></li>');
+						ul_object.append('<li>' + a_element_collection[i].href + '</li>');
+					}
+				}
+			}
+		</script>
+</body>
+
+</html>
